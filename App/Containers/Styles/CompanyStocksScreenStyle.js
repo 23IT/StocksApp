@@ -5,14 +5,17 @@ export default StyleSheet.create({
   ...ApplicationStyles.screen,
   container: {
     flex: 1,
-    paddingTop: '15%',
     backgroundColor: Colors.background
   },
   row: {
     flex: 1,
     backgroundColor: Colors.fire,
     marginVertical: Metrics.smallMargin,
-    justifyContent: 'center'
+    justifyContent: 'center',
+    margin: 10,
+    padding: 5,
+    paddingVertical: 10,
+    borderRadius: Metrics.smallMargin
   },
   boldLabel: {
     fontWeight: 'bold',
@@ -28,14 +31,9 @@ export default StyleSheet.create({
   listContent: {
     marginTop: Metrics.baseMargin
   },
-  lineStyle: {
-    borderWidth: 0.5,
-    borderColor:'black',
-    margin:10,
-  },
   button: {
     alignItems: 'center',
-    backgroundColor: Colors.fire,
+    backgroundColor: '#DDDDDD',
     padding: 10
   },
 })

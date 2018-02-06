@@ -24,7 +24,7 @@ export const INITIAL_STATE = Immutable({
 /* ------------- Selectors ------------- */
 
 export const CompanyReduxSelectors = {
-  getData: state => state.data
+  getCompanies: state => state.data
 }
 
 /* ------------- Reducers ------------- */
